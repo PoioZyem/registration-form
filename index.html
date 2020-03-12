@@ -13,15 +13,52 @@
 <body>
 
   <section>
-    <div class="">
-      <h1>Want to go to Mars?</h1>
+    <div class="max-length">
 
+      <div class="">
+        <h1 class="push-0">Want to go to Mars?</h1>
+        <hr>
+        <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      </div>
+
+      <h2 class="italic">Personal details</h2>
       <form class="" action="index.html" method="post">
 
         <div class="">
           <label for="name">Name</label>
-
+          <input id="name" name="name" required>
         </div>
+
+        <div class="">
+          <label for="age">Age</label>
+          <input id="age" type="number" name="age">
+        </div>
+
+        <div class="">
+          <label for="email">Email</label>
+          <input type="email" type="email" name="email">
+        </div>
+
+        <div class="">
+          <label for="physical-fitness">Physical Fitness</label>
+          <select id="physical-fitness" name="_physical-fitness">
+            <option value="">Super-human</option>
+            <option value="">Fit as a fiddle</option>
+            <option value="">Not terribly strong</option>
+            <option value="">A little couch-potato-y</option>
+          </select>
+        </div>
+
+        <div class="">
+          <label for="address">address</label>
+          <textarea id="address" name="message" required></textarea>
+        </div>
+      </form>
+
+      <h2 class="italic">Mission statement</h2>
+      <form class="" action="index.html" method="post">
+        <label for="reason">Why do you want to go to Mars?</label>
+        <textarea id="reason" name="message" required></textarea>
       </form>
     </div>
   </section>
