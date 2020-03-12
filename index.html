@@ -20,28 +20,28 @@
         <p class="giga">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
       </div>
 
-      <h2 class="italic tera bot-bold">Personal details</h2>
+      <h2 class="italic mega bot-bold">Personal details</h2>
       <form class="" action="index.html" method="post">
 
         <div class="grid">
 
-          <div class="unit xs-1 l-1-2 pad-b-1-2">
+          <div class="unit xs-1 l-1-2 pad-b">
             <label for="name">Name</label>
             <input id="name" name="name" required>
           </div>
 
-          <div class="unit xs-1 l-1-2 pad-b-1-2">
+          <div class="unit xs-1 l-1-2 pad-b">
             <label for="age">Age</label>
             <input id="age" type="number" name="age">
           </div>
 
-          <div class="unit xs-1 l-1-2 pad-b-1-2">
+          <div class="unit xs-1 l-1-2 pad-b">
             <label for="email">Email</label>
             <input id="email" type="email" name="email">
           </div>
 
-          <div class="unit xs-1 l-1-2 pad-b-1-2">
-            <label for="physical-fitness">Physical Fitness</label>
+          <div class="unit xs-1 l-1-2 pad-b">
+            <label for="physical-fitness">Physical fitness</label>
             <select id="physical-fitness" name="_physical-fitness">
               <option value="">Super-human</option>
               <option value="">Fit as a fiddle</option>
@@ -56,20 +56,22 @@
           <label for="address">Address</label>
           <textarea id="address" name="message" required></textarea>
         </div>
-      </form>
 
-      <h2 class="italic not-bold">Mission statement</h2>
+        <h2 class="italic giga not-bold pad-t">Mission statement</h2>
 
-      <div class="">
-        <form class="" action="index.html" method="post">
+        <div class="">
           <label for="reason">Why do you want to go to Mars?</label>
           <textarea id="reason" name="message" required></textarea>
-        </form>
-      </div>
+        </div>
 
-      <div class="">
-          <button type="submit" name="button">Request to join the mission</button>
-      </div>
+        <div class="">
+          <button type="submit" name="button">Register for the trip!</button>
+        </div>
+
+        <button>
+          <input type="hidden" name="_subject" value="Request to join the mission">
+        </button>
+      </form>
     </div>
   </section>
 
